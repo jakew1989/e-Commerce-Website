@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div id="background">
+        <div id="checkout">
+            <div id="item_list">
+                <div id="basketList">
+                    <h1 class="headings">Basket Items</h1>
+                    <div id="basketItems"></div>
+                </div>
+            </div>
+        
+
+            <div id="paymentMain">
+                <div id="payment">
+                    <h1 class="headings">Card Details</h1>
+                    <div id="cardLogos">
+                        <img class="cardLogo" src="imgs\mastercard.png" alt="">
+                        <img class="cardLogo" src="imgs\visaLogo.png" alt="">
+                        <img class="cardLogo" src="imgs\amexLogo.jpg" alt="">
+                    </div>
+                    <div id="nameNumberInput">
+                        <input type="text" placeholder="Name of Cardholder">
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                    <div class="expiryDates">
+                        <select id="expiryDay" name="">
+                            <option value="" selected>Choose here</option>
+                        </select>
+                        <select id="expiryYear" name=""></select>
+                    </div>
+                    <div id="secure_pay">
+                        <input class="secure_pay_item" type="text" placeholder="Security Number">
+                        <button class="secure_pay_item" id="payButton">Pay Now</button>    
+                    </div>
+                    <div class="checkout_total">
+                        <p>Postage fee: £3.99</p>
+                        <p id="checkout_total"></p>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <script src="checkoutScript.js"></script>
+</body>
+</html>

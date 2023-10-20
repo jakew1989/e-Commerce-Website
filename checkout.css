@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#background {
+    background-color: #b9b8d6;
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+
+#checkout {
+    display: flex;
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+
+}
+
+.headings {
+    margin-left: .5rem;
+}
+
+.basketItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.itemQuantDiv {
+    display: flex;
+    gap: 1rem;
+}
+
+.itemQuantDiv > button {
+    width: 1rem;
+    border-radius: 40%;
+}
+
+#item_list {
+    width: 60%;
+    height: 100%;
+    border: 0.1rem solid black;
+}
+
+.itemImg {
+    height: 5rem;
+}
+
+.itemName {
+    width: 7rem;
+}
+
+.removeButton {
+    width: 1rem;
+    border-radius: 40%;
+    color: red;
+}
+
+#basketTotal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#basketTotal > p {
+    margin-right: .5rem;
+}
+
+#paymentMain {
+    width: 40%;
+    height: 100%;
+    border: .1rem solid black;
+    display: flex;
+    background-color: white;
+
+}
+
+#payment {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+}
+
+#cardLogos {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.cardLogo {
+    width: 20%;
+    
+}
+
+#nameNumberInput {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+#nameNumberInput > input {
+    width: 60%;
+    height: 2rem;
+}
+
+.expiryDates {
+    display: flex;
+    gap: .5rem;
+    justify-content: space-around;
+}
+
+.expiryDates > select {
+    height: 2rem;
+}
+
+#secure_pay{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.secure_pay_item {
+    width: 60%;
+    height: 2rem;
+}
+
+.checkout_total {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: .1rem;
+    margin-right: .5rem;
+}
