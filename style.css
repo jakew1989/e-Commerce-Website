@@ -479,6 +479,16 @@ header {
     top: 15%;
     right: 0%;
   }
+
+  #featured {
+    padding-left: 10%;
+  }
+
+  .products_container {
+    padding-left: 90%;
+  }
+
+
 }
 
 
