@@ -492,6 +492,10 @@ header {
     padding-top: 10px;
   }
 
+  footer img {
+    display: none;
+  }
+
   
 
 
