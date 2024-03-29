@@ -471,7 +471,7 @@ header {
 @media (max-width: 426px) {
  
   #hero_intro {
-    padding: 30% 10% 60% 10%;
+    padding: 50% 10% 60% 10%;
   }
 
   #hero_img {
@@ -491,6 +491,8 @@ header {
   .basket {
     padding-top: 10px;
   }
+
+  
 
 
 }
