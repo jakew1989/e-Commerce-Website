@@ -175,6 +175,7 @@ p {
 
     .basketItem {
         flex-direction: column;
+        border: 1px dashed black;
     }
 
     #checkout {
